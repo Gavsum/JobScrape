@@ -1,0 +1,39 @@
+response.xpath('//*[@id="desktop_results"]/ul/article[3]/div[3]/a/div[1]/h2/text()').re('[^ ]* .(.*)...')
+
+response.xpath('//*[@id="desktop_results"]/ul/article[3]/div[3]/a/div[1]/h2/text()').re('[^ ]* .(.*)...')
+
+
+articles = response.xpath('//*[@id="desktop_results"]/ul')
+
+for p in articles.xpath('//article/div[3]/a/div[1]/h2/text()'):
+    print p.extract()
+    print("\n")
+
+
+Other things I had to do...
+
+from scrapy.selector import Selector
+from scrapy.http import HtmlResponse
+
+Use splash to render the javascript elements of the page....
+    https://blog.scrapinghub.com/2015/03/02/handling-javascript-in-scrapy-with-splash/
+
+    scrapy shell 'http://localhost:8050/render.html?url=https://www.careerbeacon.com/search/-developer-jobs-in&wait=5'
+ 
+    Start up a splash server
+    sudo docker run -p 5023:5023 -p 8050:8050 -p 8051:8051 scrapinghub/splash
+
+    Run Spider
+    scrapy runspider first.py -o results.json
+
+    Get Page Links
+    response.xpath('//*[@id="desktop_results"]/ul/article[3]/a/@href').extract()
+
+
+Relative path name use works in shell
+>>> for p in articles.xpath('//article'):
+...     a = p.xpath('.//div[3]/a/div[1]/h2/text()')
+...     for title in a:
+...         b = re.sub(ur'[^\w]', ' ', title.extract()).strip()
+...         print(b)
+...         print("\n")
