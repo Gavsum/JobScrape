@@ -1,6 +1,6 @@
 ## JobScrape Project
 
-I started working on this project as a simple demo and to also yeild some (hopefully) useful insights into the job market. Currently the aim is to scrape data from relevant job postings on carreerbeacon and then present the data visually.
+I started working on this project as a simple demo and to also yield some (hopefully) useful insights into the job market. Currently the aim is to scrape data from relevant job postings on carreerbeacon and then present the data visually.
 
 ## Libraries in use
 * Scrapy: Open source python frame work for scraping web pages https://scrapy.org/
