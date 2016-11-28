@@ -19,6 +19,8 @@ Use splash to render the javascript elements of the page....
     https://blog.scrapinghub.com/2015/03/02/handling-javascript-in-scrapy-with-splash/
 
     scrapy shell 'http://localhost:8050/render.html?url=https://www.careerbeacon.com/search/-developer-jobs-in&wait=5'
+
+    scrapy shell 'http://localhost:8050/render.html?url=&wait=5'
  
     Start up a splash server
     sudo docker run -p 5023:5023 -p 8050:8050 -p 8051:8051 scrapinghub/splash
@@ -37,3 +39,100 @@ Relative path name use works in shell
 ...         b = re.sub(ur'[^\w]', ' ', title.extract()).strip()
 ...         print(b)
 ...         print("\n")
+
+
+Data to scrape from listing pages (unfortunatley they arent formatted consistently)
+    - Job Title
+    - Company name (?)
+    - Location
+    - Body of the entry
+        - bulleted points tend to be qualifications/ requirements /etc
+        - 
+
+Things that can be done with the data
+   - Jobs on a map
+   - Keyword analysis
+        - Would need to be filtered somehow, dont want to have a bunch of hits for the word "the"
+    - 
+
+Xpaths for grabbing page data
+    Job Title : response.xpath('//title/text()').re('^[A-Za-z0-9\s]+')
+
+    Location: response.xpath('//*[@id="posting-body"]/article/header/div[2]/h4[3]').extract()
+
+    Company: >>> response.xpath('//*[@id="posting-body"]/article/header/div[2]/h4[2]').extract()
+
+    Page Data in sectoins (May have issues with some job postings):
+    >>> for entry in response.xpath('//*[@id="posting-body"]/article/p[2]//*'):
+...     p = entry.xpath('.//text()')
+...     if p:
+...          print(p.extract())
+...          print("\n")
+... 
+
+    *EDIT: above did not work on multiple pages...
+    *Below should work on most if not all pages but also renders some junk items
+    *Could be good if its possible to toss out the first & last sections
+
+    >>> for entry in response.xpath('//*[@id="posting-body"]/article/*'):
+...     p = entry.xpath('.//text()')
+...     if p:
+...         print(p.extract())
+...         print("\n")
+... 
+
+    *It does retrieve all the data but in addition to having the junk sections it also 
+    yielded one pages body as a single chunk of text vs the first for loop which nicely 
+    chopped each section into seperate items...
+
+    Page Format Sample
+        - CGI Java
+            - for entry in response.xpath('//*[@id="posting-body"]/article/p[2]//*'):
+            - Extracts all headings and text body separately
+
+        - Mariner XVU Developer
+        >>> for entry in response.xpath('//*[@id="posting-body"]/article/*'):
+        ...     p = entry.xpath('.//text()')
+        ...     if p:
+        ...         print(p.extract())
+        ...         print("\n")
+        ... 
+
+            - Extracts headings and body sections seperately
+
+        - Procom Developer
+        >>> for p in response.xpath('//*[@id="posting-body"]/article/text()'):
+        ...     print(p)
+        ... 
+
+            -Extracts text entries from the main article body which contain the info
+
+        - IGT - Software Developer / Game Developer
+            - Same loop as Mariner XVU worked
+
+        - GTI - Software Developers
+            - Same loop as Mariner XVU essentially works
+
+        - Tuba - Software Developer
+            - Same loop as Mariner XVU works
+
+        - Trihedral - Software Developer
+            - Same loop as Mariner XVU works
+
+        - Lockheed Martin - Software Developer
+            - Same Loop as Mariner XVU Works
+
+
+-> 6/8 Job ads scraped using the for loop yielded good text sections.
+-> Best practice will probably be to use that loop and some how throw out
+   any of the data scraped from pages with weird formatting
+-> Also will need to toss out first and last sections from this method as well
+   as discering the headers from the body sections
+
+
+
+
+
+
+
+

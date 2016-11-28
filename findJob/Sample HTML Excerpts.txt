@@ -1,0 +1,300 @@
+Sample HTML Sources for Job data...
+
+Mariner Innovations - Java Developer
+---------------------------------------------------------------------------------
+<div class="labels">
+  <h1>Java Developer</h1>
+        <h4>Information Technology, Multimedia</h4>
+  <br>
+  <h4>Mariner Innovations Inc.</h4>
+  <h4>
+              Fredericton,
+            New Brunswick      </h4>
+</div>
+  </header>
+    <p style="text-align: justify;"><strong>Mariner</strong> is a dynamic IT company with both Product Development and Professional Services opportunities. We serve clients throughout Canada and the United States from offices in Regina, Saint John, and Halifax. Mariner offers competitive compensation and benefits in a client focused company with a strong entrepreneurial spirit and a passion for rapid growth.</p>
+
+<p style="text-align: justify;">Mariner Innovations (<strong><a href="http://www.marinerinnovations.com">www.marinerinnovations.com</a></strong>), Mariner&rsquo;s professional services division, has been realizing fantastic growth in the IT professional services area and is currently recruiting skilled, enthusiastic IT professionals. The candidates should have a Post-secondary degree or diploma in Computer Science/Engineering with related work experience. As part of the development team, the incumbent is responsible for performing analysis, design, coding, testing and documentation for internal products and clients as the project schedule requires and deadlines dictate.</p>
+
+<p style="text-align: justify;"><strong>Skills and Attributes:</strong></p>
+
+<ul>
+    <li style="text-align: justify;">Core knowledge in Java, SOA</li>
+    <li style="text-align: justify;">5+ years experience in Software Development</li>
+    <li style="text-align: justify;">Experience in Java/JEE, JavaScript APIs (Dojo, Jquery), JSP/Struts, Hibernate/JPA, SQL, Linux, RESTAPI, Shell Scripting, Python, and Perl</li>
+    <li style="text-align: justify;">Security experience (XSS, CSRF, SQL Injection, etc.) would be an asset</li>
+    <li style="text-align: justify;">Strong&nbsp; knowledge of object oriented programming languages and principles</li>
+    <li style="text-align: justify;">Strong knowledge of relational database technologies and platforms</li>
+    <li style="text-align: justify;">Ability to quickly learn and utilize new technologies</li>
+    <li style="text-align: justify;">Ability to work in a team environment</li>
+    <li style="text-align: justify;">Strong analytical and problem solving abilities</li>
+    <li style="text-align: justify;">Excellent written and verbal communications skills</li>
+</ul>
+
+
+IGT Software Developer - Game developer
+-----------------------------------------------------------------------------------
+   <div class="labels">
+      <h1>Software Developer – Game Developer</h1>
+            <h4>Information Technology, Multimedia</h4>
+      <br>
+      <h4>IGT</h4>
+      <h4>
+                  Moncton,
+                New Brunswick      </h4>
+    </div>
+  </header>
+    <p><strong>Software Developer &ndash; Game Developer</strong><br />
+Game Development Division</p>
+
+<p><em>IGT is the w&#8203;&#8203;orld&#39;s leading end-to-end gaming solutions company spanning from manufacturing to software development.</em></p>
+
+<p><em>IGT creates innovative casino games, lottery, betting and mobile and provides operators with best-in-class solutions.</em></p>
+
+<p><em>We attract the industry&#39;s top talent, with&nbsp;more than 12,000&nbsp;employees across the world.</em></p>
+
+<p><em>Learn more about our winning combination </em><strong><a href="http://www.igt.com"><em>www.igt.com</em></a></strong><em>.</em></p>
+
+<p><strong>Overview </strong></p>
+
+<p>The Game Developer in Client Services Delivery Team works in a creative and fast paced environment as an integral part of our Moncton Game Development Studio. &nbsp;&nbsp;</p>
+
+<p>Looking to kick start your development career in a collaborative and fun environment. &nbsp;You will learn how to develop award-winning games alongside the pros such as software developers, graphic artists, mathematicians and game designers.</p>
+
+<p><strong>Qualifications</strong></p>
+
+<p><strong>Education: </strong></p>
+
+<ul>
+    <li>Post &nbsp;Secondary education or equivalent</li>
+    <li>Object Oriented Programming</li>
+    <li>C++</li>
+</ul>
+
+<p><strong>Work Experience:</strong></p>
+
+<ul>
+    <li>1-2 years software development experience</li>
+    <li>Experience with development tools including debuggers, bug tracking and source control.</li>
+</ul>
+
+<p><strong>Preferred Experience: </strong></p>
+
+<ul>
+    <li>Embedded systems experience preferred</li>
+    <li>Experience in UI development</li>
+    <li>Knowledge Linux/Unix experience preferred</li>
+    <li>Exposure to Software Development processes</li>
+    <li>Game Development experience is considered an asset</li>
+    <li>Experience with OpenGL a plus</li>
+    <li>Ability to interface with internal customers to determine software requirements</li>
+    <li>Excellent communication skills, both written and verbal</li>
+</ul>
+
+
+Mariner XVU Developer
+------------------------------------------------------------------------------
+
+<div class="labels">
+      <h1>Developer</h1>
+            <h4>Information Technology</h4>
+      <br>
+      <h4>Mariner Partners Inc.</h4>
+      <h4>
+                  Calgary,
+                Alberta      </h4>
+    </div>
+  </header>
+    <p><strong>Line of business:</strong>&nbsp; xVu<br />
+<strong>Title</strong>:&nbsp; Developer<br />
+<strong>Location</strong>: Calgary, AB</p>
+
+<p><strong>Job Description:</strong></p>
+
+<p>Mariner xVu&trade; is growing our Calgary, AB team and we are looking for a developer to join us.&nbsp; If you are an action-oriented professional attracted to a fast-paced startup-like culture, we would love to hear from you!</p>
+
+<p><strong>Our Ideal Candidate:</strong></p>
+
+<ul>
+    <li>You want to work on market-leading products and deliver great quality work.</li>
+    <li>You want to be a key contributor in the early development of new go-to-market technologies.&nbsp;</li>
+    <li>You are endlessly curious and personally driven to continuous learning.</li>
+    <li>You thrive on mastering new technologies.</li>
+    <li>You are responsive and agile &ndash; you will learn, fail and succeed quickly.&nbsp;</li>
+    <li>You will stretch yourself to explore new technological horizons.&nbsp;</li>
+    <li>You are action oriented, highly self-sufficient and possess a bias towards progress.</li>
+    <li>Home-office based, you will adeptly manage your time to juggle multiple priorities and meet deadlines.&nbsp;</li>
+</ul>
+
+<p><strong>Responsibilities:</strong></p>
+
+<p>Taking direction from the CTO and other technical leaders, you will take end-to-end responsibility for your work:</p>
+
+<ul>
+    <li>Working in a very small, entrepreneurial team, you will develop functional prototypes of new product ideas and emerging technologies; then refine and harden these prototypes based on prospective customer feedback.&nbsp;</li>
+    <li>Design, write and test efficient code and scripts.</li>
+    <li>Implement and configure any necessary operating environments.</li>
+    <li>Tune environmental parameters to optimize performance.&nbsp;</li>
+    <li>Maintain tidy source-control practices for your work.</li>
+    <li>Attend and participate in regular team scrums.&nbsp;</li>
+</ul>
+
+<p><strong>Qualifications:</strong></p>
+
+<ul>
+    <li>Bachelors degree in Computer Science/Engineering</li>
+    <li>Minimum 3 years of experience as a software developer</li>
+    <li>Advanced knowledge and experience in:
+    <ul style="list-style-type:circle;">
+        <li>Java/J2EE</li>
+        <li>HTML5</li>
+        <li>Linux / UNIX OS</li>
+        <li>Shell, Perl and Python Scripting</li>
+        <li>Design Patterns</li>
+        <li>Application and web servers (JBoss, Apache Tomcat)</li>
+        <li>Messaging frameworks (Apache Kafka)</li>
+        <li>NoSQL (Apache Cassandra, Spark, Mongo DB)</li>
+        <li>SQL (Oracle, Postgress)</li>
+        <li>SaaS development</li>
+        <li>Cloud Technologies such as AWS, Microsoft Asure, OpenStack</li>
+        <li>Virtualization and containers</li>
+    </ul>
+    </li>
+</ul>
+
+
+Procom - Developer
+---------------------------------------------------------------------------------
+
+<div class="labels">
+      <h1>Developer</h1>
+            <h4>Information Technology</h4>
+      <br>
+      <h4>Procom Services</h4>
+      <h4>
+                  Calgary,
+                Alberta      </h4>
+    </div>
+  </header>
+    <br><br><b>Intermediate / Senior Developers</b><br> On behalf of our client Procom is seeking up to three (3) Intermediate / Senior Developers for creating web based application(s) for the Transportation Portfolio. The work is related to design, development, testing and implementation of build projects under IT Client Solutions Transportation Portfolio. The resource(s) will be part <br> of Client Solutions IT team and will be working as a Intermediate/Senior Developer. The resource(s) will be required to assist in completing the assigned development tasks, <br> testing and documentation. All the deliverables should meet client QA and quality standards.<br><br><b>Intermediate / Senior Developers Job Details</b><br> The Consultant will work under direction of the IT Project Manager and will complete the following tasks using Agile/Traditional methodologies:<br><br><b>Development</b>: Mainly application development for User Interface(UI), Business Logic(BL) and Data Access(DA) layers. The primary responsibility of the resource(s) will be to complete the development tasks in the assigned timelines and budget. The deliverables should be as per City QA and quality standards.<br><b>Testing</b>: Complete Unit Testing, Functional Testing and Integration Testing of the delivered components.<br><b>Status Updates:</b> Report the project status to The City IT Project manager / Technical lead. Presentations may be required for Team and/or other stakeholders.<br><br>Developed Solution and User Acceptance Testing: Ensure solution is developed as per the requirements, QA and Quality standards and Business Units sign-off the User Acceptance phase.<br> Documentation: Creation of documentation as per the direction and specifications of the IT Project manager / Technical lead.<br><br><b>Intermediate / Senior Developers Must Have Skills</b><br> - Development: C#, ASP .Net, Web-development, Oracle/SQL database (4-10 years).<br> - Other technologies: Telerik web-controls and/or jQuery, HTML5, UI development (2-4 years).<br> - Other technologies : Angular.JS or Backbone.JS (1-3 years).<br> - Responsive and Intuitive UI Design and Development experience (2-4 years).<br> - Tools: Team Foundation Server(TFS), Visual Studio 2010/2015 (4-10 years).<br> - Design: System architecture and design (2-4 years).<br> - Proven experience of successful communication within teams and clients (4-10 years).<br> - Proven experience of producing quality documentation (4-10 years).<br><br><b>Intermediate / Senior Developers Nice to Have Skills</b><br> - City Application Architecture Framework (CAAF) experience (1-2 years).<br> - Active Reports.NET for C# integrated reporting.<br> - Previous experience of implementing projects using Agile or Traditional Methodology.<br> - Previous work experience with Municipal, other Government Organizations, or equivalent endeavours. <br><br><b>Intermediate / Senior Developers Assignment Length </b><br> 12 months<br><br><b>Intermediate / Senior Developers Start Date</b><br> Dec 1, 2016 <br><br><b>Location</b><br> Calgary (no remote work available)<br><br><br/><br/><a href='http://www.procom.ca/jobs/developer-14/?utm_source=careerbeacon#submit-resume-111044' target='_blank'> Apply </a>    <hr>
+
+CGI - Java Developer
+---------------------------------------------------------------------------------
+</div>
+    <div class="labels">
+      <h1>Java Developers</h1>
+            <h4>Information Technology</h4>
+      <br>
+      <h4>CGI Group</h4>
+      <h4>
+                  Halifax City,
+                Nova Scotia      </h4>
+    </div>
+  </header>
+    <titlenametext> Java Developers </titlenametext>
+
+<p>&nbsp;</p>
+
+<p><br />
+<jobdescription_title>Position Description</jobdescription_title><br />
+<jobdescriptiontext> CGI in Atlantic Canada are looking for high performing Java Developers to work as part of a team delivering complex solutions to a large global satellite technology organization. Our client is based in the Western US and are modernizing their ground systems and satellite communication interfaces. We have been asked to work with them to design, build and implement a new replacement platform that can accommodate their rapidly growing business.<br />
+<br />
+<br />
+You will be part of a number of small Agile teams focused on the design and coding of these new systems. The Java developer roles and responsibilities include managing Java/Java EE application development while providing expertise in the full software development lifecycle, from concept and design to testing. </jobdescriptiontext><br />
+<br />
+<br />
+<qualifications_title>Your future duties and responsibilities</qualifications_title><br />
+<qualifications> &bull; Java developer responsibilities include designing and developing high-volume, low-latency applications for mission-critical systems and delivering high-availability and performance.<br />
+<br />
+&bull; Contribute in all phases of the development lifecycle.<br />
+<br />
+&bull; Write well designed, testable, efficient code.<br />
+<br />
+&bull; Ensure designs are in compliance with specifications.<br />
+<br />
+&bull; Prepare and produce releases of software components.<br />
+<br />
+&bull; Support continuous improvement by investigating alternatives and technologies and presenting these for architectural review. </qualifications><br />
+<br />
+<br />
+<educationexperience_title>Required qualifications to be successful in this role</educationexperience_title><br />
+<educationexperience> &bull; BS/MS degree in Computer Science, Engineering or a related subject (or equivalent work experience)<br />
+<br />
+&bull; 5 plus years proven recent/current working experience in Java development<br />
+<br />
+&bull; Hands on experience in designing and developing applications using Java EE platforms<br />
+<br />
+&bull; Object Oriented analysis and design using common design patterns.<br />
+<br />
+&bull; Profound insight of Java and JEE internals (Classloading, Memory Management, Transaction management etc)<br />
+<br />
+&bull; Excellent knowledge of Relational Databases, SQL and ORM technologies (JPA2, Hibernate)<br />
+<br />
+&bull; Experience in the Spring Framework<br />
+<br />
+&bull; Experience as a Sun Certified Java Developer </educationexperience><br />
+<br />
+<br />
+
+
+Common Code Solutions - Software Developer
+-------------------------------------------------------------------------------
+
+    <div class="labels">
+      <h1>Software Developer</h1>
+            <h4>Information Technology</h4>
+      <br>
+      <h4>Common Good Solutions</h4>
+      <h4>
+                  Halifax City,
+                  Halifax Regional Municipality,
+                Nova Scotia      </h4>
+    </div>
+  </header>
+    <p><strong>Firm Description</strong></p>
+
+<p>Common Good Solutions Inc. (CGS) supports the growth and success of Community-based Social Enterprises across Canada, by providing the tools, technical resources, and networks needed for small businesses, non-profits and community groups to build sustainable, prosperous enterprises. CGS is a growing team of skilled professionals that blend a&nbsp;passion for &quot;businesses that care&quot; and the practical experience needed to build stronger communities from coast to coast to coast. For additional information, please visit&nbsp;<a href="http://www.commongoodsolutions.ca"><strong>www.commongoodsolutions.ca</strong></a>&nbsp;</p>
+
+<p><strong>Position Description</strong></p>
+
+<p>We are seeking a Software Developer for our Learning Management System (LMS) for the&nbsp;<a href="http://socialenterpriseinstitute.ca"><strong>socialenterpriseinstitute.ca</strong></a>, an online learning platform that CGS has launched. This includes organizing video, pre- and post-test content, downloadable working files, layouts, and more. Another role of this position will be to manage users of the site - for troubleshooting, billing, tracking, and sales opportunities through a newsletter and social media. The LMS Coordinator will play an essential role in the success of CGS&rsquo;s work and evelopment by building and maintaining the website socialenterpriseinstitute.ca and its users.</p>
+
+<p><strong>Key Contacts:</strong></p>
+
+<ul>
+    <li>Supervisors, LMS Coordinator, staff/peers, customers &amp; suppliers</li>
+    <li>Project Manager</li>
+    <li>Director of IT</li>
+</ul>
+
+<p><strong>Supervisory Responsibility</strong></p>
+
+<p><strong>Direct: </strong>Self (no direct reports)</p>
+
+<p><strong>Indirect:</strong> providing mentoring to more junior staff as required (not really supervisory but can be connected to that type of responsibility)</p>
+
+<p><strong>Duties</strong></p>
+
+<p><strong>Primary Duties</strong></p>
+
+<p><strong>Websites/web applications/custom software:</strong></p>
+
+<ul>
+    <li>Integrate web designs with CMS, newsletter, e-commerce and other software including custom solutions</li>
+    <li>Do any custom programming, configuration, and other work related to software prior to deployment.</li>
+    <li>Provide training as needed for either end users or account representatives.</li>
+    <li>Deploying the software in conjunction with technical support team.</li>
+    <li>Support any requests related to such software</li>
+    <li>Stay on top of new technologies and new releases of existing software/technologies.</li>
+</ul>
+
+<p><strong>Internal projects:</strong></p>
+
+<ul>
+    <li>Provide support, consultation, and software development for any internal projects as required (could include the initiation of, or follow through on, new products and services)</li>
+</ul>
+
+
+
+
+
