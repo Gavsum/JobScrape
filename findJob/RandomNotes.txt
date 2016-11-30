@@ -131,8 +131,24 @@ Xpaths for grabbing page data
 
 
 
+-> Loop to seperate out the Ad info at the begining (Business, Title, Locatin)
+    for entry in response.xpath('//*[@id="posting-body"]/article/*'):
+        count = count +1
+        if count > 1:
+            p = entry.xpath('.//text()')
+            if count == 2:
+                for value in p:
+                        print(value.extract())
+                        print("\n")
+            else:
+                print(p.extract())
+                print("\n")
 
 
 
+-> Loop to get job info headers
+    for p in response.xpath('//*[@id="posting-body"]/article/header/div[2]/*/text()'):
+        if p:
+            print(p.extract()).strip()
 
 
