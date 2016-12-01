@@ -18,7 +18,11 @@ SPLASH_URL = 'http://localhost:8050/'
 DUPEFILTER_CLASS = 'scrapy_splash.SplashAwareDupeFilter'
 HTTPCACHE_STORAGE = 'scrapy_splash.SplashAwareFSCacheStorage'
 
-
+FEED_EXPORTERS = {
+ 'json': 'scrapy.contrib.exporter.JsonItemExporter',
+}
+FEED_FORMAT = 'json'
+FEED_URI = "jobResults.json"
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'findJob (+http://www.yourdomain.com)'
 

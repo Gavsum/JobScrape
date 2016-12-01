@@ -24,7 +24,7 @@ class first(scrapy.Spider):
                 },)
         articles = response.xpath('//*[@id="desktop_results"]/ul')
         for p in articles.xpath('//article'):
-            if (counter < 1):
+            if (counter < 4):
                 x = p.xpath('.//div[3]/a/div[1]/h2/text()')
                 for title in x:
                     b = re.sub(ur'[^\w]', ' ', title.extract()).strip()
@@ -49,8 +49,6 @@ class first(scrapy.Spider):
                 p = p.replace('\n', '')
                 p = re.sub(' +', ' ', p)
 
-                #print(p)
-
                 if(infoCount == 1):
                     item['jobTitle'] = p
                 elif(infoCount == 2):
@@ -62,24 +60,38 @@ class first(scrapy.Spider):
                 else:
                     continue
 
-        print item
+        #print item
         count = 0
         print("\n")
-        item['zPageData'] = {}
+        item['zPageData'] = []
         #for each entry in the page's article
         for entry in response.xpath('//*[@id="posting-body"]/article/*'):
             count = count +1
             if count > 2:
                 p = entry.xpath('.//text()')
                 if p:
-                    #print(p.extract())
-                    #print("\n")
-                    item['zPageData'][count-2] = p.extract()
+                    p = p.extract()
+                    for i in xrange(len(p)):
+                        p[i] = p[i].strip(' \n\r\t')
 
-        del item['zPageData'][count-2]
-        print item
+                    item['zPageData'].append(p)
+
+        item['zPageData'].pop()
+
+        for key in item['zPageData']:
+            for p in key:
+                if p == '':
+                    key.remove(p)
+
+        return item
 
 
 
-#Acquiring data per page is working effectively, Next need to have the data sections read into a 
-#Scrapy item properly
+#Got data from page, can send to json object.
+#Issue now is that while I can format the data in the dict nested in the item using strip
+# as shown above, it does not seem to be written to the dict data itself and only 
+# effects the print output
+# Also it seems a bit clunky to be accessing nested elements like this, python probably
+# has a better way.
+# Lastly, it might be better to be cleansing the data on its way in as apposed to after
+# its already in the item
