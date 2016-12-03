@@ -7,6 +7,9 @@ I started working on this project as a simple demo and to also yield some (hopef
 * Scrapy-Splash: plugin for scrapy to render js based pages https://github.com/scrapy-plugins/scrapy-splash
 
 ## TODO
+* Clean up spider code
+ * Remove nested loops if possible
+ * Commenting 
 * Format Scrapy output format into JSON like style for use in MongoDB
 * Sepaarate functionallity in single spider into other python files (eg: use pipeline file for exporting tasks)
 * Functionality (in pipeline) to reject poorly formatted results, or duds that have scrapped
