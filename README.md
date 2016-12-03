@@ -16,7 +16,7 @@ I started working on this project as a simple demo and to also yield some (hopef
  * Accessing MongoDB with NodeJS
  * Angular & Express or React or Electron(Desktop) for front end stuff
  * Using D3 to represent the keyword frequency visually (eg: most commonly requested skills) or any other useful visualizations
-* After stack is figured out using low volume scrape results, scale up to scraping complete results
+* After stack is figured out using low volume scrape results, scale up to scraping complete entire web page worth of results
 * Also implementing User input for ...
  * Job search keyword
  * Title keywords to accept / rejected in search results
